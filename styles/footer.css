@@ -1,0 +1,23 @@
+footer {
+    width:100%;
+    
+    background:var(--color-green-secondary);
+    color:var(--color-light);
+}
+footer > .contact_options{
+    padding:3rem 0;
+}
+footer > .contact_options span {
+    font-size: 1.5rem;
+}
+footer > .contact_options ul {
+    line-height: 2rem;
+}
+footer > .contact_options ul li {
+list-style: none;
+}
+footer > .copyright{
+    padding:1rem;
+    text-align:center;
+    background:var(--color-dark);
+}

@@ -1,0 +1,7 @@
+.anchor_button{
+    padding:1rem;
+    background:var(--color-green-secondary);
+    border-radius: 8px;
+    font-size:1.3rem;
+    color:var(--color-light);
+}

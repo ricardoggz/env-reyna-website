@@ -1,0 +1,27 @@
+.hero {
+  width: 100%;
+  background: var(--color-green);
+  background-image: radial-gradient(
+    var(--color-dark) 1.3px,
+    var(--color-green) 1.3px
+  );
+  background-size: 26px 26px;
+  height: 100%;
+}
+
+.hero > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: var(--color-light);
+  font-size: 2.5rem;
+}
+
+.hero > .button_container {
+  padding-top: 1.5rem;
+}
+
+.hero > .container span {
+  padding-top: 4rem;
+}

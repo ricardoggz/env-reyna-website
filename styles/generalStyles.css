@@ -1,0 +1,49 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+/*bootstrap icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+/*Reset*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*body*/
+body{
+    font-family: 'Oswald', sans-serif;
+    color:var(--color-dark);
+    background: var(--color-light);
+}
+html{
+    scroll-behavior:smooth;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    font-weight:400;
+    font-size:2.5rem;
+    color:var(--color-green-secondary);
+    padding-bottom:5rem;
+}
+/*ui colors*/
+:root{
+    --color-dark:#101212;
+    --color-light:#f6f6f6;
+    --color-green:#84bb5b;
+    --color-green-secondary:#285a3d;
+}
+/*container class*/
+.container {
+    max-width:80%;
+    margin: 0 auto;
+}
+@media (min-width:240px) and (max-width:880px) {
+    .container{
+        max-width: 90%;
+    }
+}
+/*sections class*/
+.container_section{
+    padding:7rem 0;
+}
