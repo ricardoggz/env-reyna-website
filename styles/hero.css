@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  background: var(--color-green);
+  background: var(--color-green-secondary);
   background-image: radial-gradient(
     var(--color-dark) 1.3px,
     var(--color-green) 1.3px

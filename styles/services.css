@@ -24,14 +24,15 @@
 .services_options > ul li p {
     color:#64676b;
     text-align: justify;
-    padding:0.5rem;
-}
-.services_options > ul li figure {
-    background: var(--color-green);
     padding:1rem;
 }
-.services_options > ul li img {
-    width:40%;
+.services_options > ul li figure {
+    background:var(--color-green);
+    padding:1rem;
+}
+.services_options > ul li figure img {
+    width:50%;
+    object-fit: cover;
 }
 
 /*responsive*/

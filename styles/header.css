@@ -1,6 +1,6 @@
 header {
     width:100%;
-    background:var(--color-green-secondary);
+    background:var(--color-dark);
     position:fixed;
     z-index:100;
     padding:0.5rem;
@@ -15,8 +15,6 @@ header > nav a {
 }
 nav > div a img {
     width:2.5rem;
-    background:var(--color-light);
-    border-radius:50%;
 }
 nav > div i {
     color:var(--color-green);
@@ -38,8 +36,7 @@ nav > #nav_btn{
     display:flex;
     align-items: center;
     justify-content: center;
-    background:var(--color-green);
-    border-radius:20%;
+    background:none;
     color:var(--color-light);
     font-size:2rem;
     user-select: none;
@@ -59,7 +56,7 @@ nav .active {
     left:0;
     right:0;
     position:absolute;
-    background:#285a3df0;
+    background:#020503f4;
     width:100%;
     height:100vh;
     justify-content: center;
