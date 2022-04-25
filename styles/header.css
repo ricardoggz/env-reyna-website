@@ -62,7 +62,7 @@ nav .active {
     right:0;
     position:absolute;
     background:#285a3df0;
-    width:80%;
+    width:100%;
     height:100vh;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,9 @@ nav .active {
     }
 
     nav > ul li {
+        width:80%;
         padding:2rem 0;
+        border-bottom:1px solid var(--color-light);
     }
     nav > #nav_btn{
         display:flex;
