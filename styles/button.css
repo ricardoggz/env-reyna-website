@@ -2,6 +2,13 @@
     padding:1rem;
     background:var(--color-green-secondary);
     border-radius: 8px;
+    border:1px solid var(--color-green-secondary);
     font-size:1.3rem;
     color:var(--color-light);
+}
+
+.anchor_button:hover {
+    background:var(--color-light);
+    color:var(--color-green-secondary);
+    transition: all 300ms ease;
 }
