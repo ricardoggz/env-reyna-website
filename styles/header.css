@@ -1,9 +1,9 @@
 header {
     width:100%;
     background:var(--color-green-secondary);
-    padding: 1rem;
     position:fixed;
     z-index:100;
+    padding:0.5rem;
 }
 header > nav {
     display: flex;
@@ -13,12 +13,10 @@ header > nav {
 header > nav a {
     color:var(--color-light);
 }
-nav > div a {
-    display:flex;
-    align-items: center;
-    gap:0.5rem;
-    user-select: none;
-   
+nav > div a img {
+    width:2.5rem;
+    background:var(--color-light);
+    border-radius:50%;
 }
 nav > div i {
     color:var(--color-green);
@@ -57,7 +55,7 @@ nav .active {
     nav > ul {
     display:flex;
     flex-direction: column;
-    top:4.2rem;
+    top:3.2rem;
     left:0;
     right:0;
     position:absolute;
@@ -67,7 +65,7 @@ nav .active {
     justify-content: center;
     align-items: center;
     position: fixed;
-    transform:translateX(-100%);
+    transform:translateX(100%);
     transition: transform 500ms;
     }
 
