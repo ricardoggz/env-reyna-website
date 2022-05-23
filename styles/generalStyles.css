@@ -19,6 +19,7 @@ html{
 }
 a{
     text-decoration: none;
+    color:var(--color-light);
 }
 h1 {
     font-weight:400;
