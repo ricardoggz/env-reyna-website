@@ -21,3 +21,10 @@ footer > .copyright{
     text-align:center;
     background:var(--color-dark);
 }
+footer > .copyright a {
+    color:var(--color-light);
+}
+
+footer > .copyright a:hover {
+    text-decoration: underline;
+}

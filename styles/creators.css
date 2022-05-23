@@ -1,0 +1,49 @@
+.creators {
+  width: 100%;
+  padding: 5rem 0;
+}
+.creators h2 {
+  font-weight: 400;
+  padding-bottom: 5rem;
+  color: var(--color-green-secondary);
+  text-align: center;
+}
+.creators  h2 a {
+    color:var(--color-green);
+    text-decoration: underline;
+}
+.cards_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.card {
+  width: 100%;
+}
+.card > figure {
+  width: 100%;
+  height: 100%;
+  height: 300px;
+  background: #dae0e9;
+}
+.card > figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card > .description {
+  padding: 1rem;
+  color: var(--color-light);
+  text-align: center;
+  background: var(--color-green-secondary);
+}
+
+/*responsive*/
+@media (min-width: 240px) and (max-width: 720px) {
+  .cards_container {
+    grid-template-columns:1fr;
+  }
+  .card > figure img {
+    object-fit: contain;
+  }
+}
