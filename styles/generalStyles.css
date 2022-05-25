@@ -27,6 +27,11 @@ h1 {
     color:var(--color-green-secondary);
     padding-bottom:5rem;
 }
+h2 {
+    font-weight:400;
+    color:var(--color-green-secondary);
+    padding-bottom: 2rem;
+}
 /*ui colors*/
 :root{
     --color-dark:#101212;
