@@ -31,7 +31,7 @@
   height: 100%;
   object-fit: contain;
 }
-.card > .description {
+.card > .card_description {
   padding: 1rem;
   color: var(--color-light);
   text-align: center;
